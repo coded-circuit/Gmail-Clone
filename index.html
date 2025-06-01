@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+     <div class="header">
+        <div class="logo">
+            <span class="material-symbols-outlined">
+menu
+</span>
+            <img src="icons/gmail.png" alt="Gmail Logo">
+        </div>
+        <div class="search">
+        <span class="material-symbols-outlined">
+search
+</span>
+            <input class="search-input" type="text" placeholder="Search Mail">
+            <span class="material-symbols-outlined">
+arrow_drop_down
+</span>
+        </div>
+        <div class="right">
+            <div class="logo2">
+           <span><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 
+           10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm1.07-7.75c-.9.92-1.07
+           1.24-1.07 2.25h-2v-.5c0-1.1.36-1.99 1.07-2.7.63-.64 
+           1.29-1.03 1.29-1.8 0-.83-.67-1.5-1.5-1.5S10.5 
+           8.67 10.5 9.5H8.5c0-2.21 1.79-4 4-4s4 1.79 
+           4 4c0 1.4-.72 2.17-1.43 2.75z"/>
+</svg>
+</span>
+            <span class="material-symbols-outlined">
+settings
+</span>
+<span class="material-symbols-outlined">apps</span>
+</div>
+            <div class="img2">
+                <img src="icons/profile.jpg" alt="profile">
+            </div>
+        </div>
+     </div>
+
+     <div class="container">
+        <div class="left">
+            <div class="compose">
+               <span class="material-symbols-outlined">
+add
+</span>
+<div class="compose-text">Compose</div>
+
+            </div>
+            <div class="side-nav">
+    <ul>
+        <li><div class="li" id="inbox"><span class="material-symbols-outlined">inbox</span><div class="name">Inbox</div></div></li>
+        <li><div class="li"><span class="material-symbols-outlined">Star</span><div class="name">Starred</div></div></li>
+        <li><div class="li"><span class="material-symbols-outlined">schedule</span><div class="name">Snoozed</div></div></li>
+        <li><div class="li"><span class="material-symbols-outlined">send</span><div class="name">Sent</div></div></li>
+        <li><div class="li" id="draft"><span class="material-symbols-outlined">Drafts</span><div class="name">Drafts</div></div></li>
+        <li><div class="li"  id="spam"><span class="material-symbols-outlined">report</span><div class="name">Spam</div></div></li>
+        <li><div class="li"><span class="material-symbols-outlined">delete</span><div class="name">Trash</div></div></li>
+        <li><div class="li" id="label"><span class="material-symbols-outlined" >label</span><div class="name">Categories</div></div></li>
+        <li><div class="li" ><span class="material-symbols-outlined" >keyboard_arrow_down</span><div class="name">More</div></div></li>
+        
+    </ul>
+</div>
+        </div>
+        <div class="middle">
+
+            <div class="action-menu">
+                <div class="menu">
+                    <div class="pages">1-50 of 2,619</div>
+                    <span class="material-symbols-outlined">
+keyboard_arrow_left
+                    </span>
+                    <span class="material-symbols-outlined">
+keyboard_arrow_right
+                    </span>
+                   </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li> <div id="primary1"class="material-symbols-outlined">
+group
+                    </div><div class="names" id="primary2">Primary</div></li>
+
+                     <li> <div class="material-symbols-outlined">
+group
+                    </div><div class="names">Social</div></li>
+                    <li> <div class="material-symbols-outlined">
+local_offer
+                    </div><div class="names">Promotions</div></li>
+                    <li> <div class="material-symbols-outlined">
+info
+                    </div><div class="names">Updates</div></li>
+                    
+                </ul>
+            </div>
+           <div id="mailContainer" class="email-list">
+    <div class="loading">Loading emails...</div>
+    <script src="script.js"></script>
+</div>
+
+        </div>
+
+        <div class="right2"></div>
+     </div>
+</body>
+</html>
